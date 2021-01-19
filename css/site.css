@@ -1,19 +1,45 @@
 li{color:
-  yellow;
+    yellow;
 }
-
 a{color:
-  green;
+  #ffffff;
 }
 #orange {
   color:orange ;
 }
 #purple {
-  color: purple;
+  color:#ffffff;
 }
 #yellow {
   color:red ;
 }
 #green {
   color: yellow;
+}
+body {
+  margin: 20px;
+  background-color: #B34AF0;
+  color: white;
+}
+  #menu {
+      margin: 20px;
+      border: 7px solid #000000;
+      background-color: #CC91EE;
+      padding: 20px;
+  }
+
+#menu2 {
+  margin: 20px;
+  border: 7px solid #000000;
+  background-color: #CC91EE;
+  padding: 20px;
+}
+#me {
+  position: absolute;
+  top: 99px;
+  right: 47px;
+  width: 500px;
+  length: 500px;
+  border-left: 7px dashed #000000;
+  border-bottom: 7px dashed #000000;
 }
