@@ -36,10 +36,14 @@ body {
 }
 #me {
   position: absolute;
-  top: 99px;
+  top: 182px;
   right: 47px;
   width: 500px;
   length: 500px;
   border-left: 7px dashed #000000;
   border-bottom: 7px dashed #000000;
+}
+h1{
+  color: #000000;
+  font-size: 70px;
 }
