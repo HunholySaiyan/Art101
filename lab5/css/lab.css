@@ -1,0 +1,27 @@
+body{
+ font-size: 150%;
+ color: black;
+ border: 7px white;
+
+}
+script{
+  font-size: 100%;
+}
+#two{
+  background-color: white;
+  margin: 8px;
+}
+#car{
+  position: absolute;
+  top: 40px;
+  right: 47px;
+  width: 700px;
+  length: 500px;
+}
+
+#lab{
+  font-size: 200%;
+}
+html{
+  background-color: grey;
+}
