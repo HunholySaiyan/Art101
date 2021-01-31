@@ -1,6 +1,7 @@
 /*
-  * Authors: Marco Fajardo,  <Maanfaja@ucsc.edu>
-  * Created: 27 January
+  * Authors: Marco Fajardo, <Maanfaja@ucsc.edu>
+            Helia Fotoohi, <hfotoohi@ucsc.edu>
+  * Created: 27 January 2021
   * License: Public Domain
 */
 
@@ -10,7 +11,7 @@
   var model = "Fusion";
   var color = " Grey";
   var year = 2010;
-  var onwIt = true;
+  var ownIt = true;
 
 //Current Age
     age = 2021 - year;
