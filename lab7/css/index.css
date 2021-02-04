@@ -1,0 +1,26 @@
+body{
+  background-color: lightb;
+}
+#two{
+  background-color: #a2f593;
+}
+div{
+  background-color: #d4f5ce;
+
+}
+h1{
+  font-size: 400%;
+}
+p{
+  font-size: 200%;
+}
+#four{
+  font-size: 500%;
+  border: 7px solid black;
+  position: absolute;
+  top: 43px;
+  right: 47px;
+  width: 700px;
+  length: 500px;
+
+}
