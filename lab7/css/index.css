@@ -6,6 +6,7 @@ body{
 }
 div{
   background-color: #d4f5ce;
+  border: 7px dashed black; 
 
 }
 h1{
