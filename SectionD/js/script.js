@@ -23,3 +23,11 @@ console.log(numVar);
 numVar = numVar + 40; //68
 comparingNumbers(12,18);
 console.log(numVar);
+
+function userInfo(firstName, lastName) {
+  var results;
+  results = "my first name is "+firstName +" and my last name is "+lastName
+  return results;
+}
+
+userInfo("Marco", "Fajardo");

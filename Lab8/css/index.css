@@ -1,0 +1,22 @@
+body{
+  background-color: green;
+}
+div{
+  background-color: lightgreen;
+  border: 7px dashed red;
+  border: 5px dashed red;
+  border: 9px dashed red;
+}
+#one{
+  background-color: lightgreen;
+  border: 5px solid red;
+}
+h1{
+  font-size: 300%;
+}
+p{
+  font-size: 200%;
+}
+img{
+  width: 500px; 
+}
