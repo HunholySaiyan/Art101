@@ -1,0 +1,22 @@
+body{
+  background-color: blue;
+}
+div{
+  background-color: lightblue;
+  border: 7px dashed purple;
+  
+  border: 9px dashed purple;
+}
+#one{
+  background-color: lightgreen;
+  border: 5px solid red;
+}
+h1{
+  font-size: 300%;
+}
+p{
+  font-size: 200%;
+}
+#title{
+
+}
