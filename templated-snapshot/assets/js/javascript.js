@@ -16,4 +16,15 @@ function submitBio(){
 
       document.getElementById('bio_id').innerHTML= messageVar;
 }
-document.getElementById("submit_bio_id").addEventListener('click', submitBio);
+  document.getElementById("submit_bio_id").addEventListener('click', submitBio);
+  //
+  // function colorMe(){
+  //   // document.getElementById('name_email_id').style.color="magenta";
+   // document.getElementById('name_email_id').className = 'color_me';
+  // }
+  // document.getElementById('color_me_id').addEventListener('click', colorMe);
+ // $("#name_email_id").toggleclass('color_me');
+
+$('#color_me_id').click(function(){
+  $("#name_email_id").toggleclass("color_me");
+})
