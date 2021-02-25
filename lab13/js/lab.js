@@ -7,27 +7,27 @@
 for (var i=1; i<=200; i++){
     if(i% 15 == 0) {
     console.log("FizzBuzz!");
-    longString += i + "FizzBuzz!<br>";
+    longString += i + " - FizzBuzz!<br>";
 
   } else if(i% 21 == 0) {
     console.log("FizzBoom!");
-    longString += i + "FizzBoom!<br>";
+    longString += i + " - FizzBoom!<br>";
 
   } else if(i% 35 == 0 ) {
     console.log("BuzzBoom!");
-  longString += i + "BuzzBoom!<br>";
+  longString += i + " - BuzzBoom!<br>";
 
   } else if (i% 3 == 0) {
     console.log("Fizz!");
-  longString += i + "Fizz!<br>";
+  longString += i + " - Fizz!<br>";
 
   } else if (i% 5 ==0){
     console.log("Buzz!");
-  longString += i + "Buzz!<br>";
+  longString += i + " - Buzz!<br>";
 
   } else if (i% 7 == 0){
     console.log("Boom!");
-    longString += i + "Boom!<br>";
+    longString += i + " - Boom!<br>";
 
 } else console.log(i);
 
