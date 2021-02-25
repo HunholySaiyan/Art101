@@ -1,0 +1,24 @@
+
+body{
+  background-color: #f5f0df;
+}
+#one{
+  background-color: #f2dfd3;
+  border: 5px solid black;
+}
+
+#output{
+  font-size: 300%;
+  border: 7px solid black;
+  position: absolute;
+background-color: #f2dfd3;
+  width: 1258px;
+  length: 500px;
+}
+p{
+  font-size: 150%;
+}
+
+h1{
+  font-size: 200%;
+}
