@@ -9,6 +9,9 @@ for (var i=1; i<=200; i++){
     console.log("FizzBuzz!");
     longString += i + " - FizzBuzz!<br>";
 
+  } else if(i% 105 == 0) {
+    console.log("FizzBoom!");
+    longString += i + " - FizzBuzzBoom!<br>"; 
   } else if(i% 21 == 0) {
     console.log("FizzBoom!");
     longString += i + " - FizzBoom!<br>";
