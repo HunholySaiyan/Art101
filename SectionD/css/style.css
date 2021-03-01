@@ -1,4 +1,4 @@
-.box_even{
+/* .box_even{
   width:50px;
   height: 50px;
   background-color: red;
@@ -11,4 +11,7 @@
   background-color: green;
   border: solid: 3px black;
   float: left;
+} */
+#input{
+  border: solid 10px grey; 
 }

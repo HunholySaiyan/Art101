@@ -1,0 +1,186 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+/* Pollution animation */
+body{
+  background: lightblue;
+}
+.container{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.container span{
+  text-transform: uppercase;
+  display: block;
+}
+.text1{
+  color:white;
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+
+  position: relative;
+  animation: text 3s 1;
+}
+@keyframes text {
+  0%{
+    color: black;
+    margin-bottom: -40px;
+  }
+  30%{
+    letter-spacing: 25%;
+    margin-bottom: -40px;
+  }
+  85%{
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+  }
+}
+
+
+/* banner */
+body{
+  text-align: center;
+}
+.wrapper{
+  width: 1170px;
+  margin: 0 auto;
+}
+header{
+  height: 100px;
+  background: #262626;
+  width: 100%;
+  z-index: 12;
+  position: fixed;
+}
+
+.logo{
+  width: 30%;
+  float: left;
+  line-height: 100px;
+}
+
+.logo a{
+  text-decoration: none;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: #fff;
+  letter-spacing: 5px;
+}
+nav{
+  float: right;
+  line-height: 100px;
+}
+
+nav a{
+  text-decoration: none;
+  font-family: sans-serif;
+  letter-spacing: 4px;
+  font-size: 20px;
+  margin: 0 10px;
+  color: #fff;
+}
+
+.banner-area{
+  width: 100%;
+  height: 500px;
+  position: fixed;
+  top: 100px;
+  background-image: url("background.png");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+.oil{
+  background-image: url("oil.jpg");
+}
+/* .banner-area h2{
+  padding-top: 8%;
+  font-size: 70px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.content-area{
+  width: 100px;
+  position: relative;
+  top: 450px;
+  background: #ddd;
+  height: 1500px;
+}
+.content-area h2{
+  font-family: sans-serif;
+  letter-spacing: 4px;
+  padding-top: 30px;
+  font-size: 40px;
+  margin: 0px;
+}
+.content-area p{
+  padding: 2% 0;
+  font-family: cursive;
+  line-height: 30px;
+} */
+.oil{
+  margin: 10px;
+  text-align: center;
+
+}
+
+.oil-spills{
+  font-size: 80px;
+  text-align: left;
+  text-shadow: 4px;
+}
+
+.oil2{
+  margin-top: 30px;
+  float: left;
+}
+
+.facts{
+  font-size: 40px;
+  font-family: fantasy;
+  letter-spacing: 5px;
+
+}
+
+.pelican{
+  float:right;
+  width: 40%;
+  margin-top: 40px;
+}
+.dead-birds{
+  font-size: 40px;
+  font-family: fantasy;
+  letter-spacing: 5px;
+  margin:  60px;
+  text-align: left;
+}
+
+.fish{
+  width: 30%;
+  float: left;
+  border-right: aqua solid;
+  margin: 10px;
+}
+
+.otters{
+  width: 35%;
+  float: right;
+  margin-top: 10px;
+}
+
+.bird{
+  width: 30%;
+  float: center;
+  margin: 10px;
+
+}
