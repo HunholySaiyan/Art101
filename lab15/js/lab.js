@@ -20,8 +20,7 @@ $.ajax({
     data: {
 
             id: 123,
-            apikey: "125c6ddb-369e-4f27-99cb-96b1c689e939",
-            image:{},
+            api_key: "125c6ddb-369e-4f27-99cb-96b1c689e939",
           },
     //type would be GET
     type: "GET",
