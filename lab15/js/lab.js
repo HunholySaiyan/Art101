@@ -4,7 +4,7 @@
   * License: Public Domain
 */
 
-apiEndpoint = "https://api.thecatapi.com/v1/images/search";
+// apiEndpoint = "https://api.thecatapi.com/v1/images/search";
 
 $("#activate").click(catApi);
 
@@ -15,12 +15,13 @@ function textOnscreen(text){
 function catApi (){
 $.ajax({
     //my endpoint
-    url: "apiEndpoint",
+    url: "https://api.thecatapi.com/v1/images/search",
 
     data: {
 
             id: 123,
-            api_key: "125c6ddb-369e-4f27-99cb-96b1c689e939",
+            apikey: "125c6ddb-369e-4f27-99cb-96b1c689e939",
+            image:{},
           },
     //type would be GET
     type: "GET",
@@ -28,10 +29,10 @@ $.ajax({
     dataType : "json",
 
     success: function(data) {
-      var textData = JSON.stringigy(data);
-      var str = ""
+      var textData = JSON.stringify(data);
+      var str = "";
       var imageURL = data.img;
-      // var title = data.title;
+      var title = data.title;
       str += "<h2>" + title + "</h1>";
       str += "<img src='" + imageURL + "'>"
         console.log("Success", textData);
