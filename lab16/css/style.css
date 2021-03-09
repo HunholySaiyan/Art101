@@ -1,0 +1,20 @@
+.special{
+  font-size: 200%;
+  color: blue;
+
+}
+#one{
+  font-size: 350%;
+  color: magenta;
+}
+body{
+  background-color: #f5f0df;
+}
+div{
+  background-color: #f2dfd3;
+  border: 5px solid black;
+}
+
+p{
+  font-size: 40px; 
+}
