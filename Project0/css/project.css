@@ -804,6 +804,25 @@ nav a{
   margin-top: inherit;
 }
 
+.air_header{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 6em;
+  text-align: center;
+  background-image:
+  url(https://media.giphy.com/media/FE0WTM8BG754I/giphy.gif);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.air_color{
+  background-image: url("https://images.theconversation.com/files/284288/original/file-20190716-173347-6nglne.jpg?ixlib=rb-1.1.0&rect=8%2C16%2C5414%2C3615&q=45&auto=format&w=926&fit=clip");
+  margin-top: inherit;
+}
+
   /* url("https://media.giphy.com/media/KGGTVkmLrS0pjPyTum/giphy.gif"); */
 
 
@@ -1023,6 +1042,262 @@ nav a{
   }
 
 
+  .slider_background4{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #23e3c9; */
+  }
+  .slider4{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .images4{
+    width:500%;
+    height: 500px;
+    display: flex;
+  }
+  .slide4{
+    width: 20%;
+    transition: 2s;
+  }
+
+  .images4 input{
+  display: none;
+  }
+  .images4 img{
+  width: 800px;
+  height: 500px;
+  }
+
+  .navigation_manual4{
+  position: absolute;
+  width: 800px;
+  margin-top: 470px;
+  display: flex;
+  justify-content: center;
+  }
+  .manual_btn4{
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+  }
+
+  .manual_btn4:not(:last-child){
+    margin-right: 40px;
+  }
+
+  .manual_btn4:hover{
+    background: white;
+  }
+
+  #four1:checked ~ .first{
+    margin-left: 0;
+  }
+  #four2:checked ~ .first{
+    margin-left: -20%;
+  }
+  #four3:checked ~ .first{
+    margin-left: -40%;
+  }
+
+
+
+
+
+
+  .cards4 {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .card4 {
+    display: flex;
+    background: white;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    box-shadow: 10px 10px 25px rgba(black, .20);
+  }
+
+  .card4 + .card4 {
+    margin-left: 25px;
+  }
+
+  .card__header4 {
+    background-image: url("https://miro.medium.com/max/7218/1*qyloeOVxS5h2VSzz0vgpCA.jpeg");
+    background-size: cover;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    padding: 25px;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0,0,0, .75);
+    display: flex;
+    transition: 300ms ease-out;
+
+  }
+
+  .card__header4:hover {
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+  }
+
+  .card__title4 {
+    font-weight: 300;
+    font-size: 3rem;
+    text-transform: uppercase;
+    line-height: .9;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+  }
+
+  .card__more-info4,
+  .card__less-info4 {
+    background: rgba(255,255,255, .8);
+    padding: .5em 1.25em;
+    border: 0;
+    font-weight: 300;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: .8rem;
+    margin-top: auto;
+    transition: transform 500ms ease-out,
+      background 200ms ease-out;
+  }
+
+  .card__more-info4:focus,
+  .card__less-info4:focus,
+  .card__more-info4:hover,
+  .card__less-info4:hover {
+    outline: none;
+    background: white;
+  }
+
+  .card__more-info4 {
+
+  }
+
+  .card__less-info4 {
+    margin-left: auto;
+    transform: translateX(120%);
+    transition-delay: 500ms, 0ms;
+  }
+
+  .card__content4 {
+    position: relative;
+    top: 50%;
+    padding: 25px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heart4 {
+    --size: 3em;
+    width: var(--size);
+    height: var(--size);
+    margin-top: auto;
+    position: relative;
+    padding-left: 1em;
+    margin-bottom: .75em;
+    transition: transform 300ms cubic-bezier(.38,.5,.5,1.5);
+  }
+
+  .heart__checkbox4 {
+    transform: rotate(45deg);
+    position: absolute;
+    appearance: none;
+    width: 150%;
+    height: 150%;
+    top: -50%;
+    left: 45%;
+    border-radius: 50% 0 0 0;
+    // background: rgba(green, .5);
+    z-index: 100;
+    cursor: pointer;
+
+  }
+
+  .heart4:hover {
+    transform: scale(1.2);
+  }
+
+  .heart__checkbox4:focus {
+    outline: none;
+  }
+
+  .heart__icon4 {
+    transform: rotate(45deg);
+    width: var(--size);
+    height: var(--size);
+    background: pink;
+    position: absolute;
+    transition: background 125ms;
+  }
+
+  .heart__icon4::before,
+  .heart__icon4::after {
+    content: '';
+    display: block;
+    background: inherit;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    position: absolute;
+  }
+
+  .heart__icon4::before {
+    top: 0;
+    left: -50%;
+  }
+
+  .heart__icon4::after {
+    left: 0;
+    top: -50%;
+  }
+
+  .heart__checkbox4:checked ~ .heart__icon4 {
+    background: red;
+  }
+
+
+  /* // open state */
+
+  .card--open4 .card__header4 {
+    bottom: 50%;
+    left: 25px;
+    right: 25px;
+    top: 25px;
+  }
+
+  .card--open4 .card__more-info4 {
+    transform: translateY(300%);
+    transition-delay: 0ms;
+  }
+
+  .card--open4 .card__less-info4 {
+    transform: translateX(0);
+    transition-delay: 500ms, 0ms;
+  }
+
 
 
 
@@ -1035,5 +1310,15 @@ nav a{
       font-size: 20em;
       text-align: center;
       background-color: white;
-      border: 7px solid black; 
+      border: 7px solid black;
+  }
+
+  .land_pollution{
+
+      font-family: 'Raleway', sans-serif;
+      font-weight: 900;
+      font-size: 20em;
+      text-align: center;
+      background-color: white;
+      border: 7px solid black;
   }
