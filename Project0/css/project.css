@@ -1021,3 +1021,19 @@ nav a{
   #two5:checked ~ .first{
     margin-left: -80%;
   }
+
+
+
+
+
+
+
+  .land_pollution{
+
+      font-family: 'Raleway', sans-serif;
+      font-weight: 900;
+      font-size: 20em;
+      text-align: center;
+      background-color: white;
+      border: 7px solid black; 
+  }
